@@ -13,10 +13,8 @@ import java.util.Base64;
 public class SpotifyAPI {
 		
 		//Hush Hush Stuff
-		private String spotifyClientID = "ec3813f07a6c431dac66dc99d0052fb2";
-		private String spotifyClientSecret = "d1e2832ffe0f49a19b2879c2f4394bb8";
-		//String spotifyClientID = "A_CLIENT_ID_GOES_HERE";
-		//String spotifyClientSecret = "A_CLIENT_SECRET_GOES_HERE";
+		private String spotifyClientID = "A_CLIENT_ID_GOES_HERE";
+		private String spotifyClientSecret = "A_CLIENT_SECRET_GOES_HERE";
 		
 		private String token;
 		

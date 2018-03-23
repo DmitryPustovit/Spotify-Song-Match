@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -44,5 +45,33 @@ public class CSVReader {
 	public void removeRow(int row)
 	{
 		list.remove(row);
+	}
+	
+	public void joinCSV(List<List<String>> csv)
+	{
+		list.addAll(csv);
+	}
+	
+	public void saveCSV(String file)
+	{
+		try {
+			PrintWriter pw = new PrintWriter(new File(file));
+			StringBuilder sb = new StringBuilder();
+			for(int i = 0; i < list.size(); i++)
+			{
+				for(int j = 0; j < list.get(i).size(); j++)
+				{
+					sb.append(list.get(i).get(j));
+					if(j != list.get(i).size() -1)
+						sb.append(',');
+				}
+				
+				sb.append('\n');
+			}
+			pw.write(sb.toString());
+	        pw.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 	}
 }

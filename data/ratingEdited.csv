@@ -1,3 +1,4 @@
+Artist,Song Title,Spotify Song ID,Polk Rating,danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, time_signature
 Billy Ray Cyrus,Achy Breaky Heart,2EoIt9vdgFRNW03u5IvFsQ,1,0.795,0.582,9,-10.156,1,0.0306,0.0711,0,0.12,0.965,121.798,203373,4
 Justin Timberlake,Cry Me a River,7Lf7oSEVdzZqTA0kEDSlS5,1,0.624,0.653,8,-6.582,0,0.176,0.575,0,0.104,0.565,73.884,288333,4
 Tina Turner,Typical Male,2fjJt3OQ8MPaZ3LMzAWiTA,1,0.762,0.745,1,-7.772,0,0.0407,0.0172,0.0137,0.0612,0.794,106.013,256827,4

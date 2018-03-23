@@ -27,8 +27,8 @@ public class main {
 	
 	 public static void main(String[] args) throws Exception 
 	 { 
-		 String id = "ID_GOES_HERE";
-		 String secret = "SECRET_GOES_HERE";
+		 String id = "e306c20a95844942b5ec74fcd724c739";
+		 String secret = "8f91376b008e411282d6c5dd550817e7";
 		 
 		 CSVReader trainingSet = new CSVReader(
 				 "rating.csv");

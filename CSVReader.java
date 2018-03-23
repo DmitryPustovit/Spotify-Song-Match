@@ -49,7 +49,22 @@ public class CSVReader {
 	
 	public void joinCSV(List<List<String>> csv)
 	{
-		list.addAll(csv);
+		//I think there are built in methods to get this to work but...
+		//I am honestly just too tired to do that now
+		List<List<String>> output = new ArrayList<List<String>>();
+		
+		for(int i = 0; i < list.size(); i++)
+		{
+			output.add(new ArrayList<>());
+			
+			for (int j = 0; j < list.get(i).size(); j++)
+				output.get(i).add(list.get(i).get(j));
+			
+			for (int j = 0; j < csv.get(i).size(); j++)
+				output.get(i).add(csv.get(i).get(j));
+		}
+		
+		list = output;
 	}
 	
 	public void saveCSV(String file)

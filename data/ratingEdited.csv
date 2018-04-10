@@ -1,4 +1,3 @@
-Artist,Song Title,Spotify Song ID,Polk Rating,danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, time_signature
 Billy Ray Cyrus,Achy Breaky Heart,2EoIt9vdgFRNW03u5IvFsQ,1,0.795,0.582,9,-10.156,1,0.0306,0.0711,0,0.12,0.965,121.798,203373,4
 Justin Timberlake,Cry Me a River,7Lf7oSEVdzZqTA0kEDSlS5,1,0.624,0.653,8,-6.582,0,0.176,0.575,0,0.104,0.565,73.884,288333,4
 Tina Turner,Typical Male,2fjJt3OQ8MPaZ3LMzAWiTA,1,0.762,0.745,1,-7.772,0,0.0407,0.0172,0.0137,0.0612,0.794,106.013,256827,4
@@ -59,7 +58,7 @@ Hall and Oates,Man Eater,4xw1S4UaU7cLYtkkDY59SN,3,0.726,0.493,11,-12.236,0,0.038
 Boz Scaggs,It's Over,290g7LaS5icnIywogzldul,3,0.579,0.728,0,-6.904,1,0.0326,0.274,0.00000151,0.256,0.869,132.863,169760,4
 Diana Ross,I'm Coming Out,3SnGymj6ijE2iuUfWxLo1q,3,0.729,0.832,5,-9.168,1,0.0479,0.179,0.352,0.0806,0.758,110.116,323347,4
 Lionel Ritchie,My Love,03WKCY9wDhFUx0eWBsPRT5,3,0.267,0.16,8,-13.155,1,0.0362,0.689,0,0.086,0.122,62.308,244973,4
-"10,000 Maniacs",Like the Weather,19X5dUlxVWC5jDg3eOysMz,4,null,null,null,null,null,null,null,null,null,null,null,null,
+10000 Maniacs,Like the Weather,19X5dUlxVWC5jDg3eOysMz,4,0.77,0.459,1,-17.453,1,0.0416,0.112,0.00343,0.145,0.963,133.351,236653,4
 Seal,Kiss From a Rose,3YKptz29AsOlm7WAVnztBh,4,0.583,0.532,10,-7.11,0,0.0309,0.684,0,0.306,0.223,131.741,288427,3
 Tina Turner,What's Love Got to Do With It,4kOfxxnW1ukZdsNbCKY9br,4,0.851,0.406,1,-11.631,1,0.0661,0.219,0.00000641,0.0853,0.792,97.84,226880,4
 Tina Turner,Better Be Good to Me,6YytY6PPvAEp1MluJ49nP0,4,0.709,0.807,8,-4.717,1,0.0454,0.0289,0.00852,0.106,0.738,120.718,310867,4

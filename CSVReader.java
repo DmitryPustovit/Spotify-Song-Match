@@ -8,15 +8,40 @@ import java.util.Scanner;
 
 public class CSVReader {
 	
-	private List<List<String>> list = new ArrayList<>();
+	private List<List<String>> list;
 	
+	/**
+	 * Default Constructor
+	 */
+	public CSVReader()
+	{
+		list = new ArrayList<>();
+	}
+	
+	/**
+	 * Constructor that automatically open a inputed CSV file
+	 * EX. CSVReader aCSV = new CSVReader("myFile.csv");
+	 *
+	 * @param A CSV file
+	 */
 	public CSVReader(String file)
+	{
+		list = new ArrayList<>();
+		openFile(file);
+	}
+	
+	/**
+	 * Sets the active open file of the CSV reader to the inputed CSV file
+	 * 
+	 * @param A CSV file
+	 */
+	public void openFile(String file)
 	{
 		try {
 			Scanner scanner = new Scanner(new File(file));
 	        while(scanner.hasNext()){
 	        	String currentLine = scanner.nextLine().replace("/n", "");
-	        	String[] values = currentLine.split(",");
+	        	String[] values = currentLine.split(",(?=([^\"]*\"[^\"]*\")*[^\"]*$)");
 	        	
 	        	list.add(Arrays.asList(values));
 	        }
@@ -27,11 +52,22 @@ public class CSVReader {
 		}
 	}
 	
+	/**
+	 * Returns open CSV file as a two dimetional list
+	 *
+	 * @return CSV file as 2d list
+	 */
 	public List<List<String>> getCSVData()
 	{
 		return list;
 	}
 	
+	/**
+	 * Returns all the items of a specified column in the opened CSV
+	 *
+	 * @param int - column number 
+	 * @return Column data as a String array
+	 */
 	public String[] getCSVColumnData(int col)
 	{
 		String[] arr = new String[list.size()];
@@ -42,11 +78,22 @@ public class CSVReader {
 		return arr;
 	}
 	
+	/**
+	 * Removes a row from list with the stored CSV, does not overwrite the original CSV
+	 *
+	 * @param row number 
+	 */
 	public void removeRow(int row)
 	{
 		list.remove(row);
 	}
 	
+	/**
+	 * Joins two open CSVs (lists) together
+	 * This method will probably be rewritten and/or removed
+	 *
+	 * @param the other CSV
+	 */
 	public void joinCSV(List<List<String>> csv)
 	{
 		//I think there are built in methods to get this to work but...
@@ -67,6 +114,11 @@ public class CSVReader {
 		list = output;
 	}
 	
+	/**
+	 * Saved current store CSV data as a CSV
+	 *
+	 * @param File name and/or path
+	 */
 	public void saveCSV(String file)
 	{
 		try {

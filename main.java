@@ -30,8 +30,8 @@ public class main {
 		 //Sooo.. I completly forgot that WEKA, you know the main core of this project yeah that weka, weka CAN READ CSVs....
 		 //ALL. THAT. WORK...
 		 
-		 String id = "e306c20a95844942b5ec74fcd724c739";
-		 String secret = "8f91376b008e411282d6c5dd550817e7";
+		 String id = "ID_GOES_HERE"
+		 String secret = "SECRET_GOES_HERE";
 		 
 		 String testSongID = "3YKptz29AsOlm7WAVnztBh";
 		 Boolean test = false;

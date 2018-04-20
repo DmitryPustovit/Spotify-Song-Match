@@ -1,0 +1,26 @@
+Artist,Song Title,Spotify Song ID,Predicted Polk Rating,danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, tempo, duration_ms, time_signature
+Fleetwood Mac,Steal Your Heart Away,06c08ve2aODGVHZwjWTxsR,2:cluster1,0.636,0.852,4,-5.539,1,0.0266,0.302,0.000109,0.179,0.874,113.894,213520,4
+Milli Vanilli,Girl You Know It's True,0C7dYeCLF6ukChtW64UNge,4:cluster3,0.772,0.822,10,-5.649,0,0.123,0.00797,0.00148,0.457,0.526,97.718,198573,4
+Elvis Costello,Watching the Detectives,0KrYPz4S4mKHeBjCwYJp0s,1:cluster0,0.78,0.366,9,-12.153,0,0.0647,0.0148,0.0000171,0.155,0.805,133.46,226040,4
+Enya,Orinoco Flow,14EUcXXpqrC03Dzzdj8bGr,2:cluster1,0.685,0.307,0,-17.283,1,0.0305,0.797,0.28,0.0988,0.559,114.981,266194,4
+Rickie Lee Jones,Love Junkyard,1ABCs5UNBZP0is0FtrPRlK,3:cluster2,0.812,0.078,0,-18.375,1,0.0492,0.744,0.0000716,0.0786,0.278,100.701,251000,4
+The Beach Boys,Kokomo,1CnMKxIztQzO9DM9qADbP8,4:cluster3,0.682,0.578,0,-11.788,1,0.0362,0.0117,0,0.128,0.923,115.588,217787,4
+Tina Turner,We Don't Need Another Hero (Thunderdome),1qyJ6XpMHdsJD8pkiA7Qww,4:cluster3,0.69,0.674,8,-5.866,0,0.047,0.2,0.00648,0.115,0.714,98.85,255187,4
+Baltimora,Tarzan Boy,273uCXd7NPrInaiNqtkOrA,1:cluster0,0.684,0.573,5,-12.3,1,0.0261,0.318,0.028,0.306,0.716,107.363,378947,4
+Starship,Nothing's Gonna Stop Us Now,2vEQ9zBiwbAVXzS2SOxodY,1:cluster0,0.643,0.801,6,-4.921,1,0.0228,0.0298,0,0.0719,0.534,95.988,270333,4
+Frank Stallone,Far From Over,3LUrih1nLwx0vL0QihnpdI,1:cluster0,0.528,0.922,0,-4.277,1,0.0395,0.0395,0.00139,0.242,0.878,166.521,195893,4
+Toto Coelo,I Eat Cannibals,3pCqGCZVjuw06878QBSUGb,4:cluster3,0.731,0.861,5,-5.334,0,0.0421,0.0273,0,0.24,0.621,148.502,226667,4
+Annie Lennox,Waiting in Vain,3SWpH05o2ow3GZkhd6EsMZ,3:cluster2,0.516,0.644,1,-8.77,1,0.0305,0.42,0.000439,0.0726,0.489,159.905,340893,4
+Fleetwood Mac,Over & Over,3veVpUKmRXIbk6crRnGQaU,5:cluster4,0.733,0.212,7,-13.685,1,0.0292,0.346,0.271,0.0742,0.498,84.46,274667,4
+Linda Ronstadt,Blue Bayou,3zxklD2EGecZre9MjEEvIU,2:cluster1,0.732,0.161,11,-12.817,1,0.0306,0.739,0.000379,0.105,0.5,95.21,239400,4
+Survivor,The Moment of Truth,44Cb1jflzEeBEsyAsXyatC,5:cluster4,0.695,0.733,2,-10.965,1,0.0446,0.344,0.00031,0.438,0.519,138.775,226093,4
+Air Supply,Now and Forever,48nb0A2vqBeONJFgMMcar2,1:cluster0,0.53,0.259,5,-11.077,1,0.0266,0.875,0,0.054,0.22,102.538,229800,3
+Tom Petty,Refugee,4mcZYzoGwPRDdhWVlygiHf,1:cluster0,0.579,0.718,6,-4.834,0,0.0362,0.0289,0,0.088,0.712,116.155,201693,4
+Commodores,Brick House,5VJjhHyG8NZ5xdgG6uTb3P,1:cluster0,0.845,0.783,4,-10.5,0,0.0666,0.087,0.00466,0.0321,0.577,107.928,208893,4
+Elvis Costello,Veronica,5zHgT1ibsBrSOEnQwZapto,1:cluster0,0.63,0.757,0,-6.731,1,0.0359,0.128,0.000049,0.355,0.737,153.989,189507,4
+The Clash,Train in Vain,6ITuEsxEy2qPhqMowdDAeI,5:cluster4,0.761,0.722,2,-8.712,1,0.0428,0.0922,0.000366,0.132,0.966,122.764,194667,4
+Fleetwood Mac,Red Rover,6vKHIS2nrtCTOpNXl0CWbc,4:cluster3,0.631,0.88,10,-5.554,1,0.0343,0.584,0.000434,0.116,0.71,147.31,237453,3
+AC/DC,Girls Got Rhythm,6Wn3pdFtAcnYJyJVITwt7N,3:cluster2,0.511,0.978,4,-4.27,0,0.154,0.0514,0.000999,0.358,0.544,137.792,203293,4
+Eric Clapton,Wonderful Tonight,6zC0mpGYwbNTpk9SKwh08f,5:cluster4,0.573,0.208,7,-15.662,1,0.0299,0.678,0.107,0.123,0.477,95.534,225027,4
+The O'Jays,Use ta Be My Girl,7EjdrZbFpBP2lIKT5zL7gT,3:cluster2,0.641,0.615,1,-7.411,1,0.0539,0.479,0,0.195,0.892,111.485,198707,4
+"10,000 Maniacs",My Sister Rose,7MNl5aMzMVC05v7W84nQCM,5:cluster4,0.679,0.4,7,-16.781,1,0.0394,0.109,0,0.0613,0.695,120.029,192707,4

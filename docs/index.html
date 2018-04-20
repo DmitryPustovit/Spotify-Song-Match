@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Proffesor Polk Song Rating</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Libre+Barcode+39+Text|Open+Sans:300|Quicksand:300');
+      @import url('https://fonts.googleapis.com/css?family=Roboto:100');
+      body{
+        background-color: #F5F5F5;
+      }
+      h1{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 100px;
+        color: black;
+        margin-bottom: 18px;
+        margin-top: 0;
+      }
+
+      h2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        margin-bottom: 30px;
+      }
+
+      input{
+        padding: 10px;
+        border: none;
+        background: white;
+        font-size: 30px;
+        font-family: 'Open Sans', sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+        border-bottom: 4px solid #ff7f50;
+      }
+      #main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+      }
+
+      .button{
+                display: inline;
+
+      }
+
+      i{
+        color: white;
+        padding: 18px 20px 23px 20px;
+        background-color: #ff7f50;
+        font-size: 48px;
+        -moz-transform: scaleX(-1);    /* Gecko */
+        -o-transform: scaleX(-1);      /* Opera */
+        -webkit-transform: scaleX(-1); /* Webkit */
+        transform: scaleX(-1);         /* Standard */
+        filter: FlipH;                 /* IE 6/7/8 */
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
+        cursor: pointer;
+      }
+
+      textarea:focus, input:focus{
+    outline: none;
+}
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1> Polk Music </h1>
+      <h2> What music does Professor Polk like? <br/>Let's fine out.</h2>
+      <input id="song" type="text" name="song" autofocus>
+      <div class="button"><i class="material-icons">&#xE8B6;</i></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  </body>
+</html>
